@@ -1,0 +1,78 @@
+{
+  "name": "@vueuse/integrations",
+  "version": "5.1.3",
+  "description": "Integration wrappers for utility libraries",
+  "keywords": [
+    "vue",
+    "vue-use",
+    "utils"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vueuse/vueuse.git"
+  },
+  "funding": "https://github.com/sponsors/antfu",
+  "author": "Anthony Fu<https://github.com/antfu>",
+  "exports": {
+    ".": {
+      "import": "./index.esm.js",
+      "require": "./index.cjs.js"
+    },
+    "./*": "./*",
+    "./useAxios": {
+      "import": "./useAxios.esm.js",
+      "require": "./useAxios.cjs.js"
+    },
+    "./useCookies": {
+      "import": "./useCookies.esm.js",
+      "require": "./useCookies.cjs.js"
+    },
+    "./useFocusTrap": {
+      "import": "./useFocusTrap.esm.js",
+      "require": "./useFocusTrap.cjs.js"
+    },
+    "./useJwt": {
+      "import": "./useJwt.esm.js",
+      "require": "./useJwt.cjs.js"
+    },
+    "./useNProgress": {
+      "import": "./useNProgress.esm.js",
+      "require": "./useNProgress.cjs.js"
+    },
+    "./useQRCode": {
+      "import": "./useQRCode.esm.js",
+      "require": "./useQRCode.cjs.js"
+    }
+  },
+  "main": "./index.cjs.js",
+  "types": "./index.d.ts",
+  "module": "./index.esm.js",
+  "unpkg": "./index.iife.min.js",
+  "jsdelivr": "./index.iife.min.js",
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/vueuse/vueuse/issues"
+  },
+  "homepage": "https://github.com/vueuse/vueuse/tree/main/packages/integrations#readme",
+  "dependencies": {
+    "@vueuse/shared": "5.1.3",
+    "vue-demi": "*"
+  },
+  "optionalDependencies": {
+    "axios": "^0.21.1",
+    "focus-trap": "^6.6.0",
+    "jwt-decode": "^3.1.2",
+    "nprogress": "^0.2.0",
+    "qrcode": "^1.4.4",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0",
+    "@types/qrcode": "^1.4.0",
+    "@types/universal-cookie": "^3.0.0",
+    "nprogress": "^0.2.0",
+    "qrcode": "^1.4.4",
+    "universal-cookie": "^4.0.4"
+  }
+}

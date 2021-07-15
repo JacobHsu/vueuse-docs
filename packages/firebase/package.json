@@ -1,0 +1,55 @@
+{
+  "name": "@vueuse/firebase",
+  "version": "5.1.3",
+  "description": "Enables realtime bindings for Firebase",
+  "keywords": [
+    "vue",
+    "vue-use",
+    "utils",
+    "firebase",
+    "vuefire"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vueuse/vueuse.git"
+  },
+  "funding": "https://github.com/sponsors/antfu",
+  "author": "Anthony Fu<https://github.com/antfu>",
+  "exports": {
+    ".": {
+      "import": "./index.esm.js",
+      "require": "./index.cjs.js"
+    },
+    "./*": "./*",
+    "./useAuth": {
+      "import": "./useAuth.esm.js",
+      "require": "./useAuth.cjs.js"
+    },
+    "./useFirestore": {
+      "import": "./useFirestore.esm.js",
+      "require": "./useFirestore.cjs.js"
+    },
+    "./useRTDB": {
+      "import": "./useRTDB.esm.js",
+      "require": "./useRTDB.cjs.js"
+    }
+  },
+  "main": "./index.cjs.js",
+  "types": "./index.d.ts",
+  "module": "./index.esm.js",
+  "unpkg": "./index.iife.min.js",
+  "jsdelivr": "./index.iife.min.js",
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/vueuse/vueuse/issues"
+  },
+  "homepage": "https://github.com/vueuse/vueuse/tree/main/packages/firebase#readme",
+  "peerDependencies": {
+    "firebase": ">=4.0.0"
+  },
+  "dependencies": {
+    "@vueuse/shared": "5.1.3",
+    "vue-demi": "*"
+  }
+}
