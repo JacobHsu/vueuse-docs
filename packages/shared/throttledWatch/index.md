@@ -1,5 +1,5 @@
 ---
-category: Watch
+category Watch
 ---
 
 # throttledWatch

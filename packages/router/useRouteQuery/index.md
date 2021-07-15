@@ -1,5 +1,5 @@
 ---
-category: '@Router'
+category '@Router'
 ---
 
 # useRouteQuery

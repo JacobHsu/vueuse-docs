@@ -1,5 +1,5 @@
 ---
-category: Misc
+category Misc
 ---
 
 # useWebSocket

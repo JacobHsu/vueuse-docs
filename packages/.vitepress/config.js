@@ -52,6 +52,7 @@ const FunctionsSideBar = getFunctionsSideBar()
  */
 const config = {
   title: 'VueUse',
+  base: '/vueuse-docs/',
   description: 'Collection of essential Vue Composition Utilities',
   lang: 'en-US',
   themeConfig: {

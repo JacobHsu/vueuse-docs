@@ -1,5 +1,5 @@
 ---
-category: Browser
+category Browser
 ---
 
 # useUrlSearchParams

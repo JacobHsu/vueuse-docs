@@ -1,5 +1,5 @@
 ---
-category: '@Integrations'
+category '@Integrations'
 ---
 
 # useAxios

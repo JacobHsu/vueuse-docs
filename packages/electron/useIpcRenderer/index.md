@@ -1,5 +1,5 @@
 ---
-category: '@Electron'
+category '@Electron'
 ---
 
 # useIpcRenderer

@@ -1,5 +1,5 @@
 ---
-category: '@RxJS'
+category '@RxJS'
 ---
 
 # toObserver

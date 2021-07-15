@@ -1,5 +1,5 @@
 ---
-category: Formatters
+category Formatters
 ---
 
 # useTimeAgo

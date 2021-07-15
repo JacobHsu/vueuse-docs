@@ -1,5 +1,5 @@
 ::: tip
-📰 [Recent updated functions](/recent-updated)
+📰 [Recent updated functions]()
 :::
 
 # Core Functions

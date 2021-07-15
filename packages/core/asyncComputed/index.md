@@ -1,7 +1,3 @@
----
-category: Utilities
----
-
 # asyncComputed
 
 Computed for async functions

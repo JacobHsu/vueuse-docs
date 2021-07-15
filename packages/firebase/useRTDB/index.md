@@ -1,5 +1,5 @@
 ---
-category: '@Firebase'
+category '@Firebase'
 ---
 
 # useRTDB
