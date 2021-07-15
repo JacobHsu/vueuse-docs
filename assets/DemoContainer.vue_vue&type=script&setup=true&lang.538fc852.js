@@ -1,0 +1,1 @@
+import{f as s,r as a,h as e,o as r,c as l,i as o,t,b as u}from"./app.5f9bb12a.js";const v={class:"demo wide"},i={key:0,class:"error"};var c=s({setup(s){const c=a(null);return e((s=>{c.value=s})),(s,a)=>(r(),l("div",v,[o(s.$slots,"default"),c.value?(r(),l("div",i,t(c.value),1)):u("v-if",!0)]))}});export{c as _};

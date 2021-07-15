@@ -1,0 +1,1 @@
+import{o as n,c as s,e as a}from"./app.5f9bb12a.js";const t='{"title":"Components","description":"","frontmatter":{},"headers":[{"level":2,"title":"Install","slug":"install"}],"relativePath":"guide/components.md","lastUpdated":1626320652930}',p={},o=a('',12);p.render=function(a,t,p,e,c,l){return n(),s("div",null,[o])};export default p;export{t as __pageData};

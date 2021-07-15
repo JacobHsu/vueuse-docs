@@ -1,0 +1,1 @@
+import{f as a,o as e,c as s,t}from"./app.5f9bb12a.js";var l=a({props:{value:{default:!1},true:{default:"true"},false:{default:"false"},trueClass:{default:"text-primary"},falseClass:{default:"text-orange-400 dark:text-orange-300"}},setup(a){const l=a;return(a,r)=>(e(),s("span",{class:l.value?l.trueClass:l.falseClass},t(l.value?l.true:l.false),3))}});export{l as _};

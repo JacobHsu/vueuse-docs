@@ -1,0 +1,1 @@
+import{o as t,c as e,e as d}from"./app.5f9bb12a.js";const r='{"title":"Export size","description":"","frontmatter":{},"relativePath":"export-size.md","lastUpdated":1626320652930}',o={},c=d('',17);o.render=function(d,r,o,a,s,u){return t(),e("div",null,[c])};export default o;export{r as __pageData};
