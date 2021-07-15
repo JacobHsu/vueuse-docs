@@ -1,3 +1,7 @@
+---
+category: Unknown
+---
+
 # asyncComputed
 
 Computed for async functions

@@ -54,3 +54,5 @@ export default {
 ```
 
 Refer to [functions list](/functions) for more details.
+
+Vue 3 Demo: [Vite](https://github.com/vueuse/vueuse-vite-starter), [Webpack](https://github.com/vueuse/vueuse-vue3-example) / Vue 2 Demo: [Vue CLI](https://github.com/vueuse/vueuse-vue2-example)
